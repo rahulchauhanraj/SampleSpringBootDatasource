@@ -1,5 +1,5 @@
 
-Sample Predix Microservice Template using Spring Rest Template with UAA auth
+Sample Predix Microservice Template using Spring Rest
 ==============
 
 Welcome to Predix Microservice CF Spring, a Predix Backend Microservice Template.  
@@ -15,9 +15,9 @@ Each Microservice Template project shares the following characteristics
 
 1. Download the project  
   ```
-  $ git clone https://github.build.ge.com/212578960/SampleCFSpringBootWithUAA.git  
+  $ git clone https://github.com/rahulchauhanraj/SampleCFSpringBootMicroService.git  
   
-  $ cd SampleCFSpringBootWithUAA
+  $ cd SampleCFSpringBootMicroService
   
   $ mvn clean package  
   
@@ -26,7 +26,7 @@ Each Microservice Template project shares the following characteristics
   ```
 2. Push to cloud  
 
-    Take a look at the [SampleCFSpringBootWithUAA manifest.yml](manifest.yml) which provides properties and instructions for [pushing cloud foundry]		 
+    Take a look at the [SampleCFSpringBootMicroService manifest.yml](manifest.yml) which provides properties and instructions for [pushing cloud foundry]		 
     ```
     $ cf push 
  
