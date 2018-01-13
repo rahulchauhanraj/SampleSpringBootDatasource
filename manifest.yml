@@ -1,0 +1,10 @@
+---
+applications:
+  - name: rsc-sample-cf-spring-rest
+    buildpack: https://github.com/cloudfoundry/java-buildpack.git
+    host: rsc-sample-cf-spring-rest
+    path: target/rsc-sample-cf-spring-rest-1.0-SNAPSHOT.jar
+    memory: 256M
+    timeout : 180
+env:
+   MEMORY_LIMIT: 512M
