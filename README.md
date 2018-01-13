@@ -6,10 +6,8 @@ Welcome to Predix Microservice CF Spring, a Predix Backend Microservice Template
 
 Each Microservice Template project shares the following characteristics
 
-* Externalized Properties files
 * REST implementation and framework
 * Cloud ready with a Manifest file
-* Applicatoion with uaa auth
 * Continuous Integration capable
 
 
