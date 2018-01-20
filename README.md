@@ -21,7 +21,6 @@ Each Microservice Template project shares the following characteristics
   
     note: mvn clean install may run integration tests against services you may not have set up yet
   ```
-  ```
 2. Push to cloud  
 
     Take a look at the [SampleCFSpringBootMicroService manifest.yml](manifest.yml) which provides properties and instructions for [pushing cloud foundry]		 
