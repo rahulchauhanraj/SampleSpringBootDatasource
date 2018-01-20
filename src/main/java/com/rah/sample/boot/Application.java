@@ -1,4 +1,4 @@
-package com.rah.predix.boot;
+package com.rah.sample.boot;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -10,7 +10,7 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication
 @ComponentScan(
     value = {
-        "com.rah.predix"
+        "com.rah.sample"
     },
     excludeFilters = {
     }

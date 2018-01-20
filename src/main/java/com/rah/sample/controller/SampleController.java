@@ -1,4 +1,4 @@
-package com.rah.predix.controller;
+package com.rah.sample.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
