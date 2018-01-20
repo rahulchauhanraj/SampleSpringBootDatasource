@@ -10,8 +10,6 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication
 @ComponentScan(
     value = {
-        "com.ge.stuf",
-        "com.ge.pae",
         "com.rah.predix"
     },
     excludeFilters = {
